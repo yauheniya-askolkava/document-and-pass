@@ -34,6 +34,12 @@ To see what this looks like, check out `0-hello-world/index.js`.  To publish you
 
 ### Passing
 
-To complete the exercise go to the exercise directory with `cd exercise-name` in a terminal and run `jasmine index.spec.js`.  This should find and run the test file and show you the output.  Upon first running the tests you will find that the tests fail: this is by design!  Your task is to open up the javascript file and write the code needed to get all of the tests to pass.
+#### One Exercise at a Time
+
+To study one exercise go to the exercise directory in terminal and run `jasmine index.spec.js` (_use gitbash if you are using Windows_).  This will run the test file and show you the output directly in your terminal.  Upon first running the tests you will find that the tests fail: this is by design!  Your task is to open up the javascript file and write the code needed to get all of the tests to pass.
 
 The first exercise, `0-hello-world` will walk you through the process in more depth.
+
+#### Report Exercises at Once
+
+To test and report all exercises at once, use `npm run test`.  This will run the tests for each exercise and write the results into each `report.txt` file.
